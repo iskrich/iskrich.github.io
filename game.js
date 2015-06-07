@@ -1,5 +1,6 @@
 ;(function () {
     var Game = function (canvasId) {
+        alert("Два игрока ходят по очереди,соединяют точки,проигрывает тот,кто первый нарисует треугольник");
         var canvas = document.getElementById(canvasId);
         var screen = canvas.getContext('2d');
         this.field=new Field(this);
